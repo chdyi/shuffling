@@ -1,0 +1,33 @@
+.wrap{width:660px;
+    height:550px;
+    position: relative;
+    overflow:hidden;
+}
+.wrap ul {position: absolute;
+    top:500px;
+    left:450px;
+}
+.wrap li {
+    list-style:none;
+    opacity: .3;
+    text-align: center;
+    margin-left:2px;
+    height:30px;
+    width:30px;
+    font-size:20px;
+    line-height:30px;
+    border-radius:3px;
+    cursor:pointer;
+    background-color:#666666;
+    float:left;
+}
+
+#slider{position: absolute;
+    top:0px;
+    left:0px;
+}
+#slider img {
+    float:left;
+    border: none;
+}
+
